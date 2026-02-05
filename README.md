@@ -1,7 +1,16 @@
+## Third-party
+This project uses open-source packages, including: Express, Docxtemplater, pdf-lib, axios, multer.
+License
+
+## Compatibility
+Tested on: Windows 10/11 + Node 18/20, Docker Desktop.
+
 # AAEPW Render Service (DOCX/PDF)
 
 Lekki serwis HTTP do generowania dokumentów (DOCX/PDF) — komponent/demo do architektury **A.A.E.P.W**.  
 Docs/architektura: https://github.com/DudiRuders/A.A.E.P.W
+![Node](https://img.shields.io/badge/node-18%2B-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
@@ -59,6 +68,3 @@ W Wordzie ustaw ALT obrazka-placeholdera dokładnie na: `REPLACE_ME`
     -F "data={\"imie\":\"Jan\",\"nazwisko\":\"Kowalski\"}" ^
     --output rendered.docx
 
-## Third-party
-This project uses open-source packages, including: Express, Docxtemplater, pdf-lib, axios, multer.
-License
