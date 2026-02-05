@@ -13,3 +13,4 @@ npm install
 npm start
 # http://localhost:3001
 # AAEPW-render-service
+curl http://localhost:3001/health
