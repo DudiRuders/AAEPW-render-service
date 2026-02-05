@@ -1,0 +1,26 @@
+{
+  "name": "render-docx",
+  "version": "1.0.0",
+  "description": "HTTP service for DOCX templating, DOCX image replacement and PDF stamping (AAEPW demo component).",
+  "main": "server.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "DudiRuders",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.49.0",
+    "express": "^4.19.2",
+    "image-size": "^2.0.2",
+    "multer": "^1.4.5-lts.1",
+    "open-docxtemplater-image-module": "^1.0.3",
+    "pdf-lib": "^1.17.1",
+    "pizzip": "^3.1.7"
+  }
+}
